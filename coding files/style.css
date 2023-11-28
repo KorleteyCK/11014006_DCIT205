@@ -1,0 +1,35 @@
+h1 {
+  color:  blue;
+  background-color: aqua;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+h3 {
+  color: blue;
+  background-color: aqua;
+}
+p {
+  color: black;
+  margin: 0; padding: 0%;
+  outline: none; border: none;
+  font-family: sans-serif;
+}
+body{
+  background: var(--bg);
+  font-family: sans-serif;
+}
+
+img{
+  float: left;
+}
+
+:root{
+  --main-color: #d3d3d3
+}
+
+html{
+  overflow-x: hidden;
+  scroll-padding: 9rem;
+  scroll-behavior: smooth;
+}
